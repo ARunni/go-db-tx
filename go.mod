@@ -1,4 +1,4 @@
-module github.com/ARunni/go-db-tx
+module github.com/arunni/go-db-tx
 
 go 1.24.0
 
