@@ -86,7 +86,7 @@ func (r *BaseRepo) WithTimescaleDBTx(
 // -----------------------------
 
 // WithPostgresDBTx executes the given function within a PostgreSQL transaction.
-//
+// AR
 // If a transaction already exists in the context, it will be reused.
 // The transaction is automatically committed on success or rolled
 // back on error or panic.
